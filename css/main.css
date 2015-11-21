@@ -262,6 +262,10 @@ img:not(.avatar) {
   font-size: 15px;
 }
 @media screen and (max-width: 500px) {
+  .nav-main .nav-home,
+  .nav-main label {
+    padding: 10px;
+  }
   .nav-seasons li {
     width: 25%;
   }
