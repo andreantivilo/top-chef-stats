@@ -33,6 +33,10 @@
 
 @media screen and (max-width: $bp-small)
 
+  .stat:not(.person) + .stat.person,
+  .stat.person + .stat:not(.person)
+    margin-top: 15px
+
   .stat:not(.person)
     padding: 10px 0
     border-bottom: $ui-border

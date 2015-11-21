@@ -420,6 +420,10 @@ img:not(.avatar) {
   position: absolute;
 }
 @media screen and (max-width: 700px) {
+  .stat:not(.person) + .stat.person,
+  .stat.person + .stat:not(.person) {
+    margin-top: 15px;
+  }
   .stat:not(.person) {
     padding: 10px 0;
     border-bottom: 1px solid rgba(255,255,255,0.5);
